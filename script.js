@@ -1,13 +1,3 @@
-<!-- Example HTML (for context, not required in your JS file) -->
-<form id="registration-form">
-  <input type="text" id="username" placeholder="Username" />
-  <input type="email" id="email" placeholder="Email" />
-  <input type="password" id="password" placeholder="Password" />
-  <button type="submit">Register</button>
-</form>
-<div id="form-feedback" style="display:none; margin-top: 10px;"></div>
-
-<script>
   document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('registration-form');
     const feedbackDiv = document.getElementById('form-feedback');
@@ -53,4 +43,3 @@
       }
     });
   });
-</script>
